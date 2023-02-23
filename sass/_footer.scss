@@ -49,5 +49,8 @@
   }
   &-social {
     color: black;
+    :hover {
+      color: $primary-color;
+    }
   }
 }

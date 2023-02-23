@@ -726,5 +726,8 @@ body {
 .footer-social {
   color: black;
 }
+.footer-social :hover {
+  color: #fb8f1d;
+}
 
 /*# sourceMappingURL=app.css.map */
