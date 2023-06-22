@@ -7,12 +7,12 @@ toggle.addEventListener("click", function () {
 window.addEventListener("click", function (e) {
   if (!menu.contains(e.target) && !e.target.matches(".menu-toggle")) {
     menu.classList.remove(activeClass);
+    console.log(e.target);
   }
 });
 window.addEventListener("load", function () {
   const sliderItems = document.querySelectorAll(".testimonial-item");
   const sliderItemWidth = sliderItems[0].clientWidth;
-  console.log("sliderItemWidth", sliderItemWidth);
   const slider = document.querySelector(".testimonial-list");
   const arrowLeft = document.querySelector(".arrow-left");
   const arrowRight = document.querySelector(".arrow-right");
